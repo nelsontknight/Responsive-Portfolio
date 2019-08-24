@@ -217,12 +217,17 @@ nav a:hover {
 		padding: 0 45px;
 	}
 	div#content.module{
-		width: 70%;
+		width: 100%;
 	}
 	div.work{
-		width: 40%;
-		margin: 0 28px 40px 28px;
-		float: left;
+		width: 47%;
+		margin: 0 0 30px 0;
+	}
+	.work:nth-child(odd){
+		margin-right: 0;
+	}
+	.work:nth-child(even){
+		float: right;
 	}
 	div#container.work{
 		width: 100%;
@@ -251,10 +256,16 @@ nav a:hover {
 		width: 50%;
 		margin: 0;
 	}
+	
 	div.work{
-		width: 45%;
-		margin: 0 16px 40px 16px;
-		float: left;
+		width: 47%;
+		margin: 0 0 10px 0;
+	}
+	.work:nth-child(odd){
+		margin-right: 0;
+	}
+	.work:nth-child(even){
+		float: right;
 	}
 	div#container.work{
 		width: 100%;
@@ -262,6 +273,7 @@ nav a:hover {
 	}
 	.work img{
 		width: 100%;
+	
 	}
 	.work h3{
 		width: 100%;
